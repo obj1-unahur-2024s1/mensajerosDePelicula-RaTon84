@@ -1,7 +1,13 @@
+import mensajeros.*
+
 object puenteDeBrookyn {
-	method puedePasar(){}
+	method puedePasar(mensajero){
+		return mensajero.peso()<1000000
+	}
 	
 }
 object laMatrix {
-	method puedePasar(){}
+	method puedePasar(mensajero){
+		return mensajero.puedeLlamar()
+	}
 }

@@ -15,5 +15,5 @@ object mensajeria {
 	method pesoDelUltimoEmpleado(){
 		return mensajeros.last().peso();
 	}
-	s	
+	
 }
